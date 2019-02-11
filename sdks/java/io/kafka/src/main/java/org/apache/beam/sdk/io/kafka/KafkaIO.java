@@ -147,7 +147,7 @@ import org.slf4j.LoggerFactory;
  *
  * <p>When the pipeline starts for the first time, or without any checkpoint, the source starts
  * consuming from the <em>latest</em> offsets. You can override this behavior to consume from the
- * beginning by setting appropriate appropriate properties in {@link ConsumerConfig}, through {@link
+ * beginning by setting appropriate properties in {@link ConsumerConfig}, through {@link
  * Read#updateConsumerProperties(Map)}. You can also enable offset auto_commit in Kafka to resume
  * from last committed.
  *
